@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+  }
+
+  body {
+    background-image: url('./img/PC_preto.jpg');
+    background-size:cover;
+    background-position-y: -200px;
+  }
+
+  
+  /* container Form */
+
+  #form-container {
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  legend, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 5px;
+  }
+
+  legend {
+    font-weight: bold;
+    font-size: 1.0rem;
+  }
+
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  textarea{
+    border: 2px solid #323232;
+    margin-top: 15px;
+  }
+
+  input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #2ec4b6;
+    font-weight: bold;
+  }
+ 
+  input[type="submit"]:hover {
+    background-color: #000814;
+    transition: .5s;
+  }

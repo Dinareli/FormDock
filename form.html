@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="form.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="form-container">
+        <h1>Formulário</h1>
+        <form action="">
+            <legend for="email">Digite seu e-mail</legend>
+            <input type="email" name="email" required placeholder="Digite seu e-mail">
+            
+            <legend for="marca">Com qual marca houve o incidente?</legend>
+            <input type="text" name="marca" required placeholder="Ex: Banco XP" autocomplete="off">
+            
+            <legend FOR="impacto">Qual o tipo de impacto?</legend>
+            <input type="text" name="impacto" required placeholder="Ex: Lentidão" autocomplete="off">
+            
+            <legend for="funcionalidade">Qual a funcionalidade?</legend>
+            <input type="text" name="funcionalidade" required placeholder="Ex: XX" autocomplete="off">
+
+            <legend for="app/serv/plat">Qual a aplicação/serviço/plataforma? </legend>
+            <input type="text" name="app/serv/plat" required placeholder="Ex: Cartão XP" autocomplete="off">
+
+            <legend for="produto">Qual o produto?</legend>
+            <input type="text" name="produto" required placeholder="Ex: XX" autocomplete="off">
+
+            <legend for="segmento">Qual o segmento?</legend>
+            <input type="text" name="segmento" required placeholder="Ex: RV" autocomplete="off">
+
+            <legend for="timeline">Linha do Tempo</legend>
+            <textarea cols="90" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+</body>
+</html>
